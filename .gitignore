@@ -10,12 +10,4 @@ env/
 *.log
 .env
 
-# Generated project artifacts (large datasets, models, reports, and plots)
-data/
-models/
-outputs/
-
-# Keep the generated directories visible in a fresh clone
-!data/.gitkeep
-!models/.gitkeep
-!outputs/.gitkeep
+# Large generated artifacts are tracked with Git LFS.
