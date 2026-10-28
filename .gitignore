@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Local logs and environment files
+*.log
+.env
+
+# Generated project artifacts (large datasets, models, reports, and plots)
+data/
+models/
+outputs/
+
+# Keep the generated directories visible in a fresh clone
+!data/.gitkeep
+!models/.gitkeep
+!outputs/.gitkeep
